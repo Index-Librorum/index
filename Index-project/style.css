@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: antiquewhite;
+    height: 400px;
+    width:100%;
+    position: relative;
+}
+header ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height: 400px;
+}
+header a {
+    color:grey;
+    text-decoration: none;
+    font-size: 50px;
+}
+header a:hover{
+    text-decoration: underline; 
+}
+header li{
+    display:inline;
+    margin-right:4vw;
+}
+h1{
+    color:rgb(17, 107, 17);
+    position: absolute;
+    left: 60px;
+    line-height: 400px;
+    background-image:url(images/logo_t.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    text-indent: -9999px;
+}
+.introduction{
+    background-color:aliceblue;
+}
+.Index{
+    background-color:azure;
+    color: darkblue;
+    height: 85vh;
+    background-image: url(images/index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Index h2{
+    font-size: 60px;
+}
+.Index p{
+    color:rgb(18, 18, 185);
+    font-size: 18px;
+    margin:25px 0;
+}
+.Index a{
+    color: gray;
+    text-decoration: none;
+    border:1px gray solid;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.Railgun{
+    background-color:rgba(255, 166, 0, 0.496);
+    color: rgb(141, 212, 243);
+    height: 40vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Railgun h2{
+    font-size: 60px;
+}
+.Railgun blockquote{
+    font-size: 20px;
+    line-height: 1.8em;
+}
+footer{
+    background-color:black;
+    color: rgb(255, 255, 255);
+    height: 40vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
