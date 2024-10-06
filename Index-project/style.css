@@ -170,7 +170,7 @@ footer{
     flex-direction: column;
     align-items: center;
     line-height: 10vh;
-    height: 33vh;
+    height: 50vh;
 }
 .letter input, .letter button{
     background-color: transparent;
@@ -178,6 +178,9 @@ footer{
     border:1px solid gainsboro;
     padding:10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
 }
 .letter input{
     width: 200px;
