@@ -34,7 +34,8 @@ h1{
     background-image:url(images/logo_t.svg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 210px;
+    width:20%;
+    height:70vh;
     text-indent: -999vw;
 }
 .Index{
@@ -170,7 +171,7 @@ footer{
     flex-direction: column;
     align-items: center;
     line-height: 10vh;
-    height: 50vh;
+    height: 53vh;
 }
 .letter input, .letter button{
     background-color: transparent;
@@ -196,4 +197,32 @@ footer{
 .letter{
     outline:none;
     border-color:aquamarine;
+}
+.menu{
+    display:none;
+}
+/*響応式  */
+@media screen and (max-width:768px)
+{
+    header ul{
+        display:none;
+    }
+    header h1{
+        left:50%;
+        transform:translate(-50%);
+        width: 50%;
+        top:2%;
+    }
+    .menu{
+        display: block;
+        background-color: transparent;
+        color:gray;
+        font-size: 40px;
+        position: absolute;
+        top:5px;
+        left:30px;
+        border:none;
+        cursor: pointer;
+        
+    }
 }
